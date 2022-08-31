@@ -13,6 +13,8 @@ Python 2.7. You need to install the following packages:
 + "ECDSA" for the elliptic curve functions required to generate wallets.
 + "BeautifulSoup" to parse xml files.
 
+Note by aimissq  -- on my python2.7 I also needed "bs4" module from pip
+
 ## Efficiency
 It only uses the CPU and is written in python, so not efficient at all. in order to improve efficiency you would need to
 write it in C++ use multi-thread, or even better use GPU acceleration.
